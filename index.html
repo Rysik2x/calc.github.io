@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Calc</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="wrap">
+		
+		<div class="calc">
+			
+			<div class="display">
+				
+				<input disabled value="0" type="text" id="display" class="calc-display">
+
+			</div>
+			<div class="btns">
+				
+				<button type="button" id="ce" class="clear-btn btn btn-ce">ce</button>
+
+				<button type="button" id="c" class="clear-btn btn btn-c">c</button>
+
+				<button value="Деление" type="button" class="operation btn btn-div">/</button>
+
+				<button value="Умножение" type="button" class="operation btn btn-multi">*</button>
+
+				<button type="button" class="number btn btn-7">7</button>
+
+				<button type="button" class="number btn btn-8">8</button>
+
+				<button type="button" class="number btn btn-9">9</button>
+
+				<button value="Вычитание" type="button" class="operation btn btn-minus">-</button>
+
+				<button type="button" class="number btn btn-4">4</button>
+
+				<button type="button" class="number btn btn-5">5</button>
+
+				<button type="button" class="number btn btn-6">6</button>
+
+				<button value="Сложение" type="button" class="operation btn btn-plus">+</button>
+
+				<button type="button" class="number btn btn-1">1</button>
+
+				<button type="button" class="number btn btn-2">2</button>
+
+				<button type="button" class="number btn btn-3">3</button>
+
+				<button type="button" id="decimal" class="btn btn-dot">.</button>
+
+				<button type="button" class="number btn btn-zero">0</button>
+
+				<button value="Результат" type="button" id="result" class="operation btn btn-rav">=</button>
+
+			</div>
+
+		</div>
+		<button type="button" id="howWorkBtn" class="btnHow">Как это работает?</button>
+		<div>
+			<ul id="operationsList">
+				
+			</ul>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
